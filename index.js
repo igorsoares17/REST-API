@@ -5,20 +5,20 @@ const users = [
 
     {
         id: 1,
-        name: "Pablo",
-        age: 20
+        name: "Manga",
+        value: 6.5
     },
 
     {
         id: 2,
-        name: "Jorge",
-        age: 30
+        name: "Detergente",
+        value: 2.5
     },
 
     {
         id: 3,
-        name: "Amanda",
-        age: 40
+        name: "Leite",
+        value: 3.5
     }
 ]
 
