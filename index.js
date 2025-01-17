@@ -1,12 +1,13 @@
 const express = require('express');
 let app = express();
+let cors = require('cors');
 
 const users = [
 
     {
         id: 1,
-        name: "Manga",
-        value: 6.5
+        name: "pera",
+        value: 9.5
     },
 
     {
@@ -17,10 +18,18 @@ const users = [
 
     {
         id: 3,
-        name: "Leite",
+        name: "café",
         value: 3.5
+    },
+
+    {
+        id: 4,
+        name: "suco",
+        value: 5.5
     }
 ]
+
+app.use(cors())
 
 app.get('/', (req, res) => {
 
